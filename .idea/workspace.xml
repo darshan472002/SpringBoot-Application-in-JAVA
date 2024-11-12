@@ -4,51 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b65d8a5b-3ad3-4392-900b-a7a4194755a8" name="Changes" comment="Uploading the Backend Application">
-      <change beforePath="$PROJECT_DIR$/Client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/Base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/NavBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/pages/About.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/pages/Home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/pages/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/pages/SignUp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/services/helper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/tailwind.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Config/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/ControllerMakerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/ControllerMakerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Exception/ApiResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Exception/ApiResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Exception/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Exception/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Exception/ResourceNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Exception/ResourceNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/PayLoads/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/PayLoads/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/PayLoads/UserResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/PayLoads/UserResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/FileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/FileService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/Impl/FileServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/Impl/FileServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/Impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Utils/ImageValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Utils/ImageValidator.class" afterDir="false" />
-    </list>
+    <list default="true" id="b65d8a5b-3ad3-4392-900b-a7a4194755a8" name="Changes" comment="Uploading the Backend Application" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,32 +62,32 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ControllerMakerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;ToolWindow.Commit.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dp205/Desktop/ControllerMaker&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Application.executor": "Run",
+    "Spring Boot.ControllerMakerApplication.executor": "Run",
+    "ToolWindow.Commit.ShowToolbar": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dp205/Desktop/SpringBoot Application/ControllerMaker",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.Controller.ControllerMaker.Exception" />
@@ -189,6 +145,7 @@
       <workItem from="1731293486096" duration="12907000" />
       <workItem from="1731379976976" duration="10906000" />
       <workItem from="1731405910645" duration="1620000" />
+      <workItem from="1731409930520" duration="486000" />
     </task>
     <task id="LOCAL-00001" summary="uploading the Backend Application">
       <option name="closed" value="true" />
