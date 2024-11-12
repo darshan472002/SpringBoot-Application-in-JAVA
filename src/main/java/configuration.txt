@@ -1,0 +1,124 @@
+# Database Configuration
+spring.datasource.url= jdbc:mysql://localhost:3306/controllersUser
+spring.datasource.username= root
+spring.datasource.password= Darshan@456
+spring.datasource.driver-class-name= com.mysql.cj.jdbc.Driver
+logging.level.org.springframework.web=DEBUG
+
+# Hibernate Configuration
+spring.jpa.hibernate.ddl-auto= update
+spring.jpa.show-sql= true
+spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.MySQLDialect
+logging.level.org.hibernate.validator=DEBUG
+
+
+# File related all Configuration
+spring.servlet.multipart.max-file-size=5MB
+spring.servlet.multipart.max-request-size=5MB
+
+
+project.image=images/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    _______________________________________________________________Image File____________________________________________________________________________
+//
+////    post image upload
+//    @PostMapping("/image/{id}")
+//    public ResponseEntity<?> uploadUserImage(@RequestParam("image") MultipartFile image,
+//                                             @PathVariable Integer id) throws IOException {
+//
+//        if (!ImageValidator.isValidImage(image)) {
+//            return new ResponseEntity<>(new ApiResponse("Invalid image file: only JPEG, PNG allowed and size should be under 2 MB", false), HttpStatus.BAD_REQUEST);
+//        }
+//
+//        UserDto userDto = this.userService.getUserById(id);
+//
+//        String fileName = this.fileService.uploadImage(path, image);
+//        userDto.setImageName(fileName);
+//        UserDto updatedUser = this.userService.updateUser(userDto, id);
+//        return new ResponseEntity<>(updatedUser, HttpStatus.OK);
+//    }
+//
+//    //    Method to serve files
+//    @GetMapping(value = "/image/{imageName}", produces = MediaType.ALL_VALUE)
+//    public void getUserImage(@PathVariable("imageName") String imageName, HttpServletResponse response) throws IOException {
+//
+//        InputStream resource = this.fileService.getResource(path, imageName);
+//        response.setContentType(MediaType.IMAGE_JPEG_VALUE);
+//        response.setContentType(MediaType.IMAGE_PNG_VALUE);
+//        StreamUtils.copy(resource, response.getOutputStream());
+//    }
+//
+////    Method to Update file
+//    @PutMapping("/image/update/{id}")
+//    public ResponseEntity<?> updateUserImage(
+//            @PathVariable("id") Integer id,
+//            @RequestParam("image") MultipartFile image) throws IOException {
+//
+//        if (!ImageValidator.isValidImage(image)) {
+//            return new ResponseEntity<>(new ApiResponse("Invalid image file: only JPEG, PNG allowed and size should be under 2 MB", false), HttpStatus.BAD_REQUEST);
+//        }
+//
+//        // Fetch the existing user by id
+//        UserDto userDto = this.userService.getUserById(id);
+//
+//        // Get the name of the existing image file to be replaced
+//        String existingFileName = userDto.getImageName();
+//
+//        // Use the FileService to replace the existing image with the new one
+//        String updatedFileName = this.fileService.updateImage(path, existingFileName, image);
+//
+//        // Update the user DTO with the new file name
+//        userDto.setImageName(updatedFileName);
+//
+//        // Save the updated user information
+//        UserDto updatedUser = this.userService.updateUser(userDto, id);
+//
+//        // Return the updated user information
+//        return new ResponseEntity<>(updatedUser, HttpStatus.OK);
+//    }
+//
+////    Method to delete file
+//    @DeleteMapping("/image/delete/{id}")
+//    public ResponseEntity<ApiResponse> deleteUserImage(@PathVariable("id") Integer id) throws IOException {
+//
+//        // Fetch the user by id to get the image name
+//        UserDto userDto = this.userService.getUserById(id);
+//
+//        // Get the name of the existing image file
+//        String fileName = userDto.getImageName();
+//
+//        if (fileName != null && !fileName.isEmpty()) {
+//
+//            // Delete the image file using the FileService
+//            this.fileService.deleteImage(path, fileName);
+//
+//            // Set the image name in the user DTO to null or empty
+//            userDto.setImageName(null);
+//
+//            // Update the user to remove the image reference
+//            this.userService.updateUser(userDto, id);
+//
+//            // Return a response indicating success
+//            return new ResponseEntity<>(new ApiResponse("User image deleted successfully", true), HttpStatus.OK);
+//        } else {
+//
+//            // Return a response indicating failed
+//            return new ResponseEntity<>(new ApiResponse("No image found for this user", false), HttpStatus.NOT_FOUND);
+//        }
+//    }
