@@ -1,8 +1,11 @@
 package com.Controller.ControllerMaker.Service.Impl;
 
+import com.Controller.ControllerMaker.Config.AppConstants;
 import com.Controller.ControllerMaker.Exception.ResourceNotFoundException;
+import com.Controller.ControllerMaker.Model.Role;
 import com.Controller.ControllerMaker.Model.User;
 import com.Controller.ControllerMaker.PayLoads.UserResponse;
+import com.Controller.ControllerMaker.Repository.RoleRepository;
 import com.Controller.ControllerMaker.Repository.UserRepository;
 import com.Controller.ControllerMaker.Service.UserService;
 import com.Controller.ControllerMaker.PayLoads.UserDto;
@@ -12,6 +15,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -24,7 +28,13 @@ public class UserServiceImpl implements UserService {
     private UserRepository userRepository;
 
     @Autowired
+    private RoleRepository roleRepository;
+
+    @Autowired
     private ModelMapper modelMapper;
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
 //    GET method
     @Override
@@ -63,7 +73,25 @@ public class UserServiceImpl implements UserService {
         return this.convertToDto(user);
     }
 
-//    POST method
+    @Override
+    public UserDto registerNewUser(UserDto userDto) {
+
+        User user = this.modelMapper.map(userDto, User.class);
+
+//        encode the password
+        user.setPassword(this.passwordEncoder.encode(user.getPassword()));
+
+//        roles
+        Role role = this.roleRepository.findById(AppConstants.NORMAL_USER).get();
+
+        user.getRoles().add(role);
+
+        User newUser = this.userRepository.save(user);
+
+        return this.modelMapper.map(newUser, UserDto.class);
+    }
+
+    //    POST method
     @Override
     public UserDto saveUser(UserDto userDto) {
         User user = this.convertToEntity(userDto);
@@ -78,7 +106,7 @@ public class UserServiceImpl implements UserService {
 //        we need to check whether employee with given id is existed in DB or not
         User existingUser = this.userRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("User", "Id", id));
 
-        existingUser.setUserName(userDto.getUserName());
+        existingUser.setName(userDto.getName());
         existingUser.setEmail(userDto.getEmail());
         existingUser.setPassword(userDto.getPassword());
 
@@ -105,18 +133,12 @@ public class UserServiceImpl implements UserService {
     // Utility method to convert User entity to UserDto
     private UserDto convertToDto(User user) {
         UserDto userDto = this.modelMapper.map(user, UserDto.class);
-//        userDto.setUserName(user.getUserName());
-//        userDto.setEmail(user.getEmail());
-//        userDto.setPassword(user.getPassword());
         return userDto;
     }
 
     // Utility method to convert UserDto to User entity
     private User convertToEntity(UserDto userDto) {
         User user = this.modelMapper.map(userDto, User.class);
-//        user.setUserName(userDto.getUserName());
-//        user.setEmail(userDto.getEmail());
-//        user.setPassword(userDto.getPassword());
         return user;
     }
 }

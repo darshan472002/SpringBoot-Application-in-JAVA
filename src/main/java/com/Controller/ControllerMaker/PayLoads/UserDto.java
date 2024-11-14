@@ -5,16 +5,13 @@ import lombok.NoArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.List;
-
 @NoArgsConstructor
 @Setter
 @Getter
 public class UserDto {
     private int id;
 
-    @Size(min = 4, message = "Username must be minimum of 4 characters !!")
-    private String userName;
+    private String name;
 
     @Email(message = "Email Address is not Valid !!")
     private String email;
@@ -24,4 +21,5 @@ public class UserDto {
     private String password;
 
     private String imageName;
+
 }
