@@ -2,10 +2,14 @@ package com.Controller.ControllerMaker.Model;
 
 import com.Controller.ControllerMaker.PayLoads.UserDto;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.validator.constraints.Email;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -32,9 +36,11 @@ public class User extends UserDto implements UserDetails {
     private String name;
 
     @NotEmpty(message = "Email must be Required !!")
+    @Email(message = "Email is not Valid !!")
+    @Column(unique = true)
     private String email;
 
-    @NotEmpty(message = "Password must be Required !!")
+    @NotBlank
     private String password;
 
 //    @NotEmpty(message = "Image must be Required !!")

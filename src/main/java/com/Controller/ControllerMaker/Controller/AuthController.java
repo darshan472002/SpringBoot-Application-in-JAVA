@@ -1,11 +1,13 @@
 package com.Controller.ControllerMaker.Controller;
 
 import com.Controller.ControllerMaker.Exception.ApiException;
+import com.Controller.ControllerMaker.Model.User;
 import com.Controller.ControllerMaker.PayLoads.JwtAuthRequest;
 import com.Controller.ControllerMaker.PayLoads.JwtAuthResponse;
 import com.Controller.ControllerMaker.PayLoads.UserDto;
 import com.Controller.ControllerMaker.Security.JwtTokenHelper;
 import com.Controller.ControllerMaker.Service.UserService;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("api/v1/auth/")
+@RequestMapping("/api/v1/auth/")
 public class AuthController {
 
     @Autowired
@@ -31,6 +33,9 @@ public class AuthController {
 
     @Autowired
     private AuthenticationManager authenticationManager;
+
+    @Autowired
+    private ModelMapper mapper;
 
     @Autowired
     private UserService userService;
@@ -47,6 +52,7 @@ public class AuthController {
 
         JwtAuthResponse response = new JwtAuthResponse();
         response.setToken(token);
+        response.setUser(this.mapper.map((User)userDetails, UserDto.class));
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 

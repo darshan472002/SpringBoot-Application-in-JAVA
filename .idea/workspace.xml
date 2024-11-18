@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b65d8a5b-3ad3-4392-900b-a7a4194755a8" name="Changes" comment="Uploading the Backend Application" />
+    <list default="true" id="b65d8a5b-3ad3-4392-900b-a7a4194755a8" name="Changes" comment="Uploading the Backend Application">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/PayLoads/JwtAuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/PayLoads/JwtAuthResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/PayLoads/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/PayLoads/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Service/Impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Service/Impl/FileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/PayLoads/JwtAuthResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/PayLoads/JwtAuthResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/PayLoads/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/PayLoads/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/Impl/FileServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/Impl/FileServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/Impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configuration.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,10 +59,15 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/darshan472002/SpringBoot-Application-.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/darshan472002/SpringBoot-Application-in-JAVA.git&quot;,
     &quot;accountId&quot;: &quot;eeb3ed18-ef20-41df-a78f-5e5f7032c2e1&quot;
   }
 }</component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="ControllerMaker/invalid/JPA" />
+    </ignored-facets>
+  </component>
   <component name="JvmLoggingSettingsStorage">
     <option name="loggerId" value="Lombok Slf4j" />
   </component>
@@ -66,16 +93,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ControllerMakerApplication.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.Application.executor": "Run",
     "Spring Boot.ControllerMakerApplication.executor": "Run",
     "ToolWindow.Commit.ShowToolbar": "false",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/dp205/Desktop/SpringBoot Application/ControllerMaker",
     "node.js.detected.package.eslint": "true",
@@ -86,7 +116,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -119,14 +149,6 @@
       </method>
     </configuration>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -154,7 +176,14 @@
       <workItem from="1731409930520" duration="1212000" />
       <workItem from="1731468212127" duration="17007000" />
       <workItem from="1731490488366" duration="10421000" />
-      <workItem from="1731552973817" duration="16495000" />
+      <workItem from="1731552973817" duration="21645000" />
+      <workItem from="1731595621518" duration="2375000" />
+      <workItem from="1731639821973" duration="14000" />
+      <workItem from="1731639847400" duration="16000" />
+      <workItem from="1731639909880" duration="10000" />
+      <workItem from="1731639943375" duration="281000" />
+      <workItem from="1731640246684" duration="67000" />
+      <workItem from="1731640335496" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="uploading the Backend Application">
       <option name="closed" value="true" />
@@ -180,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731577282708</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Uploading the Backend Application">
+      <option name="closed" value="true" />
+      <created>1731577575822</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731577575822</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

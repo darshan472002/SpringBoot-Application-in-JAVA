@@ -1,9 +1,12 @@
 package com.Controller.ControllerMaker.PayLoads;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.*;
 import lombok.NoArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
+import org.hibernate.validator.constraints.Email;
 
 @NoArgsConstructor
 @Setter
@@ -13,7 +16,6 @@ public class UserDto {
 
     private String name;
 
-    @Email(message = "Email Address is not Valid !!")
     private String email;
 
     @Size(min = 8, message = "Password must be minimum of 8 characters with mixed case letters, numbers and punctuation marks.")
@@ -22,4 +24,13 @@ public class UserDto {
 
     private String imageName;
 
+    @JsonIgnore
+    public String getPassword() {
+        return this.password;
+    }
+
+    @JsonProperty
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }

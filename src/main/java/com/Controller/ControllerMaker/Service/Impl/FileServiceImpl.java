@@ -12,6 +12,7 @@ import java.util.UUID;
 @Service
 public class FileServiceImpl implements FileService {
 
+//    POST Image
     @Override
     public String uploadImage(String path, MultipartFile file) throws IOException {
 
@@ -37,6 +38,7 @@ public class FileServiceImpl implements FileService {
         return fileName1;
     }
 
+//    GET Image
     @Override
     public InputStream getResource(String path, String fileName) throws FileNotFoundException {
         String filePath = path + File.separator + fileName;
