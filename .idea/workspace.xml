@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b65d8a5b-3ad3-4392-900b-a7a4194755a8" name="Changes" comment="Uploading the Backend Application">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Config/WebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/PayLoads/JwtAuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/PayLoads/JwtAuthResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/PayLoads/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/PayLoads/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Service/Impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Service/Impl/FileServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Config/WebConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/PayLoads/JwtAuthResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/PayLoads/JwtAuthResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/PayLoads/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/PayLoads/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/Impl/FileServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/Impl/FileServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/Impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/configuration.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="b65d8a5b-3ad3-4392-900b-a7a4194755a8" name="Changes" comment="Uploading the Backend Application" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,7 +195,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731577575822</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Uploading the Backend Application">
+      <option name="closed" value="true" />
+      <created>1731929140503</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731929140503</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Uploading the Backend Application">
+      <option name="closed" value="true" />
+      <created>1731929187782</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731929187782</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
