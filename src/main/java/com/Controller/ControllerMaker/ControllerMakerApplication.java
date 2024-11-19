@@ -35,7 +35,6 @@ public class ControllerMakerApplication implements CommandLineRunner {
 //	BCryptPasswordEncoder perform for custom password in console
 	@Override
 	public void run(String... args) throws Exception {
-//		System.out.println(this.passwordEncoder.encode("Darshan@12"));
 
 		try {
 			Role role = new Role();
@@ -51,7 +50,7 @@ public class ControllerMakerApplication implements CommandLineRunner {
 			List<Role> result = this.roleRepository.saveAll(roles);
 
 			result.forEach(r -> {
-				System.out.println(r.getId());
+				System.out.println(r.getName());
 			});
 		}
 		catch (Exception e){
