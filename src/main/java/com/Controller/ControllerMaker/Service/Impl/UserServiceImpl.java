@@ -82,7 +82,7 @@ public class UserServiceImpl implements UserService {
 //        encode the password
         user.setPassword(this.passwordEncoder.encode(user.getPassword()));
 
-//        roles
+//        role is set by default NORMAL_USER
         Role role = this.roleRepository.findById(AppConstants.NORMAL_USER)
                 .orElseThrow(() -> new RuntimeException("Role not Found"));
         user.getRoles().add(role);

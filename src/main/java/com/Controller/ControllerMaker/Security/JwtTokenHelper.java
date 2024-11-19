@@ -16,8 +16,6 @@ import java.util.function.Function;
 @Component
 public class JwtTokenHelper {
 
-    public static final long JWT_TOKEN_VALIDITY = 5 * 60 * 60;
-
     private String secretKey = "2a0010Ao0NFFVPvA7urdeLrE1fvY3BXMdA7JRJCl17ilNmURNku29pPy";
 
     // Retrieve username from JWT token
