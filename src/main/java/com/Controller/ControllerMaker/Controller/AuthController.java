@@ -42,8 +42,8 @@ public class AuthController {
 
     @PostMapping("/login")
     public ResponseEntity<JwtAuthResponse> createToken(
-            @RequestBody JwtAuthRequest request
-    ) throws Exception {
+            @RequestBody JwtAuthRequest request) throws Exception {
+
         this.authenticate(request.getUsername(),request.getPassword());
 
         UserDetails userDetails = this.userDetailsService.loadUserByUsername(request.getUsername());
@@ -52,7 +52,8 @@ public class AuthController {
 
         JwtAuthResponse response = new JwtAuthResponse();
         response.setToken(token);
-        response.setUser(this.mapper.map((User)userDetails, UserDto.class));
+
+        response.setUser(this.mapper.map(userDetails, UserDto.class));
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
@@ -64,7 +65,7 @@ public class AuthController {
             this.authenticationManager.authenticate(authenticationToken);
         }
         catch (BadCredentialsException e) {
-            System.out.println("Invalid username or password !!");
+            System.out.println("Invalid Details !!");
             throw new ApiException("Invalid username or password !!");
         }
     }

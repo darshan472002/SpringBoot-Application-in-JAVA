@@ -40,7 +40,7 @@ public class User extends UserDto implements UserDetails {
     @Column(unique = true)
     private String email;
 
-    @NotBlank
+    @NotEmpty(message = "Password must be Required !!")
     private String password;
 
 //    @NotEmpty(message = "Image must be Required !!")
@@ -48,8 +48,8 @@ public class User extends UserDto implements UserDetails {
 
     @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinTable(name = "user_role",
-            joinColumns = @JoinColumn(name = "Users", referencedColumnName = "id"),
-            inverseJoinColumns = @JoinColumn(name = "role", referencedColumnName = "id"))
+            joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"),
+            inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"))
     private Set<Role> roles = new HashSet<>();
 
     @Override

@@ -6,10 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="b65d8a5b-3ad3-4392-900b-a7a4194755a8" name="Changes" comment="Uploading the Backend Application">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Security/JwtTokenHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Security/JwtTokenHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Config/AppConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Config/AppConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/ControllerMakerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/ControllerMakerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/Service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Config/AppConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Config/AppConstants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/ControllerMakerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/ControllerMakerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Exception/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Model/Role.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Security/JwtTokenHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Security/JwtTokenHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Controller/ControllerMaker/Service/Impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +48,11 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -51,6 +71,9 @@
     &quot;accountId&quot;: &quot;eeb3ed18-ef20-41df-a78f-5e5f7032c2e1&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/Controller/ControllerMaker/ControllerMakerApplication.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
       <facet id="ControllerMaker/invalid/JPA" />
@@ -74,6 +97,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
@@ -127,15 +151,6 @@
         <option value="DatabaseScript" />
       </set>
     </option>
-  </component>
-  <component name="RunManager">
-    <configuration name="ControllerMakerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="ControllerMaker" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Controller.ControllerMaker.ControllerMakerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -229,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731929337444</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Uploading the Backend Application">
+      <option name="closed" value="true" />
+      <created>1731986428419</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731986428419</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
